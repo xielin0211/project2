@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.container .card{
+    margin: 10px;
+    text-align:center;
+    color:#000000;
+    transition: all 600ms;
+}
+.container .card p{
+    transition: all 1500ms;
+    font-size: 15px;
+}
+.container .card p:hover{
+    color: #ff0000;
+    font-size: 50px;
+}
+.container .card:hover{
+    transform:rotate(5deg) scale(1.1);
+}
+
+.heading{
+    font-family: 'Charmonman', cursive;
+    text-align: center;
+    width:300px;
+    border-bottom: 2px solid #333;
+    text-shadow: 4px 10px #999;
+    margin:auto;
+}

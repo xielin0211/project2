@@ -1,0 +1,10 @@
+.check{
+padding: 20px;
+background-color: aliceblue;
+font-size:30px; 
+color: brown;
+cursor: pointer;
+}
+img{
+    float:TOP;
+}
